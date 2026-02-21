@@ -8,6 +8,6 @@ def read_root():
 @app.get("/hello/{name}") #path parameter
 def say_hello(name: str):
     return {"message": f"Hello {name}"}
-@app.get("/square")
+@app.get("/square") #query parameter
 def square(number : int):
     return{"result ": number * number}
