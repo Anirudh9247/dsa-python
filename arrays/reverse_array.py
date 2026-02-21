@@ -10,5 +10,5 @@ def reverse_array(arr):
 # Usecase:
 arr = [1, 2, 3, 4, 5]
 reversed_arr = reverse_array(arr)  
-print("Original array:", arr)
+# print("Original array:", arr)
 print("Reversed array:", reversed_arr)
